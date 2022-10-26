@@ -85,13 +85,11 @@ input {
 
 /* Mobile */
 
-@media only screen and (max-width: 800px) {
-  .container {
-		flex-direction: column; 
-		justify-content: flex-start;
-	}
-	.chat {
-		width: 60vw;
-		margin: 7vw;
-	}
+@media (min-width: 575px) {
+  article {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 }
